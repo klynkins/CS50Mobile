@@ -16,7 +16,7 @@ function newTodo() {
     li.innerHTML = inputValue;
     todoList.append(li);
     if (inputValue === '') {
-        alert('Add ToDo Item');
+        alert('Add To Do Item');
     }    else {
             document.getElementById("todo-list").value = "";
         }
